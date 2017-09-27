@@ -355,6 +355,14 @@ h2 {
 	color: #5e9b0f;
 	font-size: 1.6rem;
 	padding-bottom: 5px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;
+}
+.top_btn button:hover {
+	background-color: #6fb217;
+	color: #fff;
 }
 .top_phone {
 	text-align: right;
