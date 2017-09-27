@@ -702,6 +702,7 @@ header:before {
 }
 .contact p {
 	margin-bottom: 3rem;
+	font-size: 1.8rem;
 }
 .contact h5 {
 	margin-bottom: 3rem;
@@ -709,7 +710,7 @@ header:before {
 	line-height: 2.8rem;
 }
 .contact h4 {
-	margin: 6rem 0;
+	margin: 3rem 0;
 }
 footer {
 	position: relative;
