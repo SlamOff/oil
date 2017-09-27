@@ -11,6 +11,33 @@
 	footer:before {
 		display: none;
 	}
+	.garant_item h4 {
+		-ms-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.range img {
+		width: 100%;
+		max-width: 370px;
+		height: 360px;
+	}
+	.range_item {
+		height: 520px;
+	}
+	.open_form h3 {
+		font-size: 4rem;
+	}
+	.open_form img {
+		display: none;
+	}
+	p br {
+		display: none;
+	}
+	.step .number img {
+		max-width: 660px;
+	}
+	.contact h4 {
+		margin: 3rem 0;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -25,6 +52,66 @@
 	html {
 		font-size: 8px;
 	}
+	header {
+		background-position: left top;
+	}
+	section h4 {
+		font-size: 2rem;
+	}
+	.garant_item {
+		height: 385px;
+	}
+	.range p {
+		font-size: 1.8rem;
+	}
+	.proposal_item {
+		padding: 0 5rem;
+		height: 450px;
+	}
+	.proposal img {
+		max-width: 470px;
+	}
+	.open_form {
+		text-align: center;
+	}
+	.open_form h3 {
+		text-align: center;
+		margin-top: 0;
+	}
+	.open_form h3 br {
+		display: none;
+	}
+	.open_form button {
+		margin-top: 3rem;
+	}
+	p {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 500px;
+	}
+	.open_form {
+		height: auto;
+		background-position: left top;
+	}
+	.step {
+		padding-bottom: 0;
+	}
+	.step p {
+		font-size: 1.6rem;
+	}
+	.step .number img {
+		max-width: 600px;
+		left: 8rem;
+	}
+	section {
+		padding: 60px 0;
+	}
+	.proposal {
+		padding-bottom: 0;
+	}
+	label.error {
+		text-align: center;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -38,8 +125,162 @@
 	html {
 		font-size: 7.5px;
 	}
+	section {
+		padding: 40px 0;
+	}
+	header {
+		text-align: center;
+	}
+	header .trigger {
+		text-align: left;
+	}
+	.header_form {
+		text-align: center;
+	}
+	.header_form:before {
+		background-repeat: repeat;
+	}
+	.header_form input,
+	.header_form button {
+		margin-top: 2rem;
+	}
+	.garant_item h4 {
+		top: -30px;
+	}
+	.garant_item p {
+		top: -25px;
+		position: relative;
+	}
+	.garant_item {
+		margin-bottom: 8rem;
+		position: relative;
+		height: auto;
+	}
+	.garant_item:before {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		height: 2px;
+		background-color: #ffbe00;
+	}
+	.range {
+		padding-top: 0;
+	}
+	section h3:before {
+		display: none;
+	}
+	.range_item {
+		height: auto;
+		padding: 4rem 0;
+		text-align: center;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+	}
+	.range p {
+		margin: 3rem auto;
+	}
+	.range img {
+		height: auto;
+		top: 0;
+	}
+	.range h3 {
+		margin-bottom: 6rem;
+	}
+	.proposal img {
+		display: none;
+	}
+	.proposal_item {
+		text-align: center;
+		height: auto;
+		padding: 5rem 0;
+		margin-bottom: 0;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		border-width: 3px;
+	}
+	.proposal .row:last-of-type .proposal_item {
+		border: 0;
+	}
+	.proposal_text {
+		margin: 0 auto;
+	}
+	.proposal h3 {
+		margin-bottom: 6rem;
+	}
+	.step .col-sm-3 {
+		padding-bottom: 8rem;
+	}
+	.step .col-sm-3:before {
+		content: "";
+		position: absolute;
+		bottom: 28px;
+		height: 3px;
+		background-color: #ffbe00;
+		width: 200px;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	.step .number {
+		display: none;
+	}
+	.contact {
+		text-align: center;
+	}
+	.contact h3 {
+		text-align: center;
+	}
+	.contact img {
+		margin-top: 4rem;
+	}
+	.top_head {
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+	h2 {
+		font-size: 2.5rem;
+	}
+	section h3 br,
+	header h3 br {
+		display: none;
+	}
+	section h3,
+	header h3,
+	.open_form h3 {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+	.garant_item {
+		margin-bottom: 4rem;
+	}
+	.proposal .row_x .proposal_item {
+		padding-right: 0;
+	}
+	.timer__item {
+		width: 50px;
+		height: 45px;
+	}
+	.form_wrapper {
+		padding: 5rem;
+	}
 }
-
+@media only screen and (max-width : 640px) {
+	.desc {
+		position: absolute;
+		top: 80px;
+		font-size: 2rem;
+	}
+	h1 {
+		margin-top: 6rem;
+	}
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.made_by p, .copyright p {
@@ -53,8 +294,26 @@
 	.share .timer__item:last-of-type {
 		margin-right: 0;
 	}
+	h1 {
+		font-size: 3.2rem;
+		line-height: 4rem;
+	}
 }
-
+@media only screen and (max-width : 380px) {
+	h1 {
+		font-size: 2.5rem;
+		line-height: 3.2rem;
+	}
+	h2 {
+		font-size: 2.2rem;
+	}
+	.top_phone {
+		font-size: 1.8rem;
+	}
+	.logo img {
+		max-width: 120px;
+	}
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
